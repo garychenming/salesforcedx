@@ -1,4 +1,4 @@
-FROM salesforce/salesforcedx:latest-rc-full
+FROM salesforce/cli:2.17.5-full
 
 RUN apt update && apt -y install libxml2-utils
 
