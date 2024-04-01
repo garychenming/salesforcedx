@@ -1,6 +1,6 @@
 # https://hub.docker.com/repositories/garychenming
 # https://hub.docker.com/r/salesforce/cli/tags
-FROM salesforce/cli:2.27.6-full
+FROM salesforce/cli:2.36.4-full
 
 RUN apt update && apt -y install libxml2-utils
 
